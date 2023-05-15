@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	
+<main>
+	<div class="main_main_menu ">
+		<div class="main_menu">
+			<div class="main_menu_first_block">
+				<h2>Élégance Absolue </h2>
+				<ul>
+					<li><a href="#">ÉLÉGANCE ABSOLUE WOMEN</a></li>
+					<li><a href="#">ÉLÉGANCE ABSOLUE MEN</a></li>
+					<li><a href="#">GIFTS</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">COLLETCTIONS</a></li>
+					<li><a href="#">LA MAISON</a></li>
+					<li><a href="#">ÉLÉGANCE ABSOLUE SELF</a></li>
+					<li><a href="#">STORE LOCATOR</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">LOG IN</a></li>
+					<li><a href="#">SIGN IN</a></li>
+					<li><a href="#">CLIENT SERVICE</a></li>
+					<li><a href="#">SUSTAINABILITY</a></li>
+				</ul>
+			</div>
+			<div class="main_menu_second_block">
+				<button class="menu_close">
+					<a href="#"><img src="img/cross_icon-icons 2.png" alt=""></a>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="page_main">
+		<div class="page_first_block">
+			<div class="page_heading">
+				<h2>Élégance Absolue</h2>
+			</div>
+
+			<div class="page_description">
+				<p>ABONNEZ-VOUS À LA NEWSLETTER</p>
+				<p>PHOTOGRAPHIES RETOUCHÉES</p>
+			</div>
+
+			<div class="page_footer">
+				<div class="page_footer_first">
+					<ul>
+						<li><a href="#"><img src="img/icons/icons8-facebook-f-90 1.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icons/icons8-instagram-96 1.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icons/icons8-twitch-96 1.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icons/icons8-twitter-100 1.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icons/icons8-youtube-100 1.png" alt=""></a></li>
+					</ul>
+				</div>
+
+				<div class="page_footer_second">
+					<ul>
+						<li><a href=""><a href="#">LIVRAISON: FRANCE (MODIFIRE)</a></a></li>
+						<li><a href=""><a href="#">LANGUE: FRANÇAIS (MODIFIRE)</a></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="page_second_block">
+			<h2>SS23</h2>
+			<p>découvrir la collection</p>
+		</div>
+
+		<div class="page_thrid_block">
+
+			<div class="page_thrid_block_first">
+
+				<button class="button search"><a  href="#"><img src="img/icons/icons8-search-100 1.png" alt=""></a></button>
+				<button class="button"><a  href="#"><img src="img/icons/icons8-shopping-bag-64 1.png" alt=""></a></button>
+				<button class="button menu"><a  href="#"><img src="img/icons/icons8-menu-30 1.png" alt=""></a></button>
+				
+			</div>
+
+			<div class="page_thrid_block_second">
+				<ul>
+					<li><a href="#">SERVICE CLIENT</a></li>
+					<li><a href="#">CARRIÈRES</a></li>
+					<li><a href="#">ACCESSIBILITÉ</a></li>
+					<li><a href="#">MENTIONS LÉGALES</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--search -->
+	<div class="search_blocked ">
+		<div class="search_main">
+			<div class="search_first_block">
+				<input type="text" placeholder="SEARCH">
+				<h2>SUGGESTIONS</h2>
+				<ul>
+					<li><a href="#">NEW - WOMEN’S SPRING - SUMMER 23</a></li>
+					<li><a href="#">NEW - MEN’S SPRING - SUMMER 23</a></li>
+					<li><a href="#">WOMEN’S HANDBAGS</a></li>
+					<li><a href="#">WOMEN’S MINI BAGS</a></li>
+					<li><a href="#">MEN’S BELTS</a></li>
+					<li><a href="#">MEN’S SHIRTS</a></li>
+				</ul>
+			</div>
+			<div class="search_second_block">
+				<button class="search_close">
+					<a href="#"><img src="img/cross_icon-icons 2.png" alt=""></a>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- main_menu -->
+	
+</main>
+<script src="script.js"></script>
+<script>
+let menu = document.getElementsByClassName('menu');
+let menu_close = document.getElementsByClassName('menu_close');
+let main_main_menu = document.getElementsByClassName('main_main_menu');
+
+
+menu[0].onclick = function() {
+	main_main_menu[0].classList.add("main_active");
+}
+menu_close[0].onclick = function() {
+	main_main_menu[0].classList.remove("main_active");
+	console.log('awdawdaw');
+}
+
+</script>
+</body>
+</html>
